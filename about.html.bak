@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Metas -->
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<meta name="description" content="A greenspace website desighned to help low income households.">
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;900&display=swap" rel="stylesheet">
+	<title>Home	| Outsidein.com</title>
+</head>
+<body>
+	<header>
+		<div class="topnav" id="myTopnav">
+			<a href="index.html">Home</a>
+			<a href="contact.html">Contact</a>
+			<a href="about.html">About</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</header>
+	
+	<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>      <div class="container">We’re an environmental charity with a difference. Our purpose is to inspire ways of living that are good for the environment. We do this by designing campaigns that make environmental actions desirable. We disrupt the status quo to raise awareness, nudge behaviours and shape systems. We do this with knowledge and playfulness, and we won’t make you feel bad. Design By Nature, brought to you by Hubbub, is an initiative that challenges students to find new ways to tackle environmental issues affecting our day-to-day lives. We celebrate innovation, creativity, disruptive thinking, collaboration and insight-led ideas that make sustainable living second nature.  </p>
+  <p>.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>

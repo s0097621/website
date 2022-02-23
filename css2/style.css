@@ -1,0 +1,9 @@
+* {
+	font-family: 'Roboto Slab', serif;
+}
+
+body	{
+	background-image: url("/images/background2.jpg");
+	background-repeat: no-repeat;
+	background-size: 2000px 1000px;
+}

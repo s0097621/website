@@ -1,0 +1,178 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	max-width: 1000px;
+	float: none;
+	margin: auto;
+	padding:0px;
+	background-image: url("/images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 2000px 1000px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Slab', serif;
+	padding:10px;
+}
+p {
+	padding:10px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.3em
+}
+a {
+	font-family: 'Roboto Slab', serif;
+	p {
+  font-size: 14px;
+}
+}
+header {
+	width: 100%;
+	display: inliine-block;
+	padding:0px;
+}
+.aside-left {
+	width: 20%;
+	float: left;
+	display: block;
+	min-height: 300px;
+	background-color: #e6e6e6;
+}
+main {
+	width: 60%;
+	float: left;
+	display: block;
+	min-height: 300px;
+	background-color: #FAD7A9;
+}
+aside {
+	width: 20%;
+	float: right;
+	display: block;
+	min-height: 300px;
+	background-color: #e6e6e6;
+}
+footer{
+	width: 100%;
+	display: inline-block;
+	background-color: #333;
+	@font-face {
+	font-family: myFirstFont;
+	src: url(sansation_bold.woff);
+	font-weight: bold;
+}
+}
+.intro {
+	display: block;
+	background-color: #FAD7A9;
+	color: #00706C;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.3em;
+}
+.left-footer {
+	width: 33%;
+	float: left;
+	display: block;
+	min-height: 455px;
+	background-color: #FAD7A9;
+	color: #00706C;
+	font-weight: bold;
+	font-size: 10px;
+}
+.center-footer {
+	width: 33%;
+	float: left;
+	display: block;
+	min-height: 455px;
+	background-color: #FAD7A9;
+	color: #00706C;
+	font-weight: bold;
+	font-size: 10px;
+}
+.right-footer {
+	width: 34%;
+	float: right;
+	display: block;
+	min-height: 455px;
+	background: #FAD7A9;
+	color: #00706C;
+	font-weight: bold;
+	font-size: 10px;
+	
+}
+.copyright {
+	width: 100%;
+	display: inline-block;
+	background-color: #fff;
+}
+
+/* Menu CSS */
+.topnav {
+  background-color: #CEA36A;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
